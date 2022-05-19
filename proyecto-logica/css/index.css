@@ -1,32 +1,10 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-a, .show-slide div a{
+a {
     text-decoration: none;
-    color: black;
 }
-  .slide {
-position: absolute;
-background: var(--mainWhite);
-top: 0;
-right: 0;
-transition: all 0.3s ease-in-out;
-width: 0;
-width: 40wv;
-height: 40vh;
-z-index: 30;
-margin-top: 10vh;
-background-color: #e6cbcb;
-opacity: .7;
-  }
-  .show-slide {
-  width: 8rem;
-  padding: 1vh 1.5rem;
-  transform: rotateY(-360deg);
-}
-.show-slide div {
-    margin-top: 2vh;
-}
+
 @media only screen and (max-width: 575px) {
     header nav .header-no-responsive {
         display: none;
