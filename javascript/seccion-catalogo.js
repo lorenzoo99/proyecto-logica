@@ -3,11 +3,11 @@ document.getElementById('s22+')
 .addEventListener('click', function(event) {
 	precio_s22 = 4459000;
 	iva_s22 = (precio_s22 * 0.19);
-	precio_total_s22 = precio_s22 + iva_s22;
+	sub_total_s22 = precio_s22 - iva_s22;
 	alert('Subtotal:          '+ precio_s22 +'\n' + 'Iva:                     '+ iva_s22 + '\n' + 'Precio total:     ' + precio_total_s22  );
 
 	
-	//console.log( precio_s22, iva_s22, precio_total_s22);
+	//console.log( precio_s22, iva_s22, sub_total_s22);
 	//event.preventDefault();
 
 })
